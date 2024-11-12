@@ -1,0 +1,60 @@
+2023-12-22 20:47:19.541 [http-nio-8080-exec-7] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:47:19.541 [http-nio-8080-exec-7] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - Harry Potter és a Bölcsek köve, Szerző - J. K. Rowling, Ár - 10000, Elérhető - true]'
+2023-12-22 20:47:19.541 [http-nio-8080-exec-7] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:47:41.312 [http-nio-8080-exec-9] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:47:41.313 [http-nio-8080-exec-9] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - Harry Potter és a Titkok Kamrája, Szerző - J. K. Rowling, Ár - 11000, Elérhető - false]'
+2023-12-22 20:47:41.322 [http-nio-8080-exec-9] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:47:55.835 [http-nio-8080-exec-2] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:47:55.835 [http-nio-8080-exec-2] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - Harry Potter és az azkabani fogoly, Szerző - J. K. Rowling, Ár - 12000, Elérhető - false]'
+2023-12-22 20:47:55.835 [http-nio-8080-exec-2] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:48:13.911 [http-nio-8080-exec-5] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:48:13.911 [http-nio-8080-exec-5] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - Harry Potter és a Tűz Serlege, Szerző - J. K. Rowling, Ár - 13000, Elérhető - false]'
+2023-12-22 20:48:13.911 [http-nio-8080-exec-5] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:48:32.509 [http-nio-8080-exec-1] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:48:32.509 [http-nio-8080-exec-1] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - Harry Potter és a Főnix Rendje, Szerző - J. K. Rowling, Ár - 14000, Elérhető - true]'
+2023-12-22 20:48:32.509 [http-nio-8080-exec-1] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:48:51.647 [http-nio-8080-exec-3] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:48:51.647 [http-nio-8080-exec-3] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - Harry Potter és a Félvér Herceg, Szerző - J. K. Rowling, Ár - 15000, Elérhető - false]'
+2023-12-22 20:48:51.647 [http-nio-8080-exec-3] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:49:08.122 [http-nio-8080-exec-4] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:49:08.122 [http-nio-8080-exec-4] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - Harry Potter és a Halál ereklyéi, Szerző - J. K. Rowling, Ár - 16000, Elérhető - true]'
+2023-12-22 20:49:08.122 [http-nio-8080-exec-4] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:49:23.881 [http-nio-8080-exec-6] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:49:23.882 [http-nio-8080-exec-6] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - Harry Potter és az elátkozott gyermek, Szerző - J. K. Rowling, Ár - 17000, Elérhető - true]'
+2023-12-22 20:49:23.882 [http-nio-8080-exec-6] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:50:26.719 [http-nio-8080-exec-10] ERROR fileLogger - [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'price'; For input string: "14ds"]
+2023-12-22 20:50:33.799 [http-nio-8080-exec-5] ERROR fileLogger - [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Boolean' for property 'available'; Invalid boolean value [ewww]]
+2023-12-22 20:50:46.037 [http-nio-8080-exec-6] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 20:50:46.038 [http-nio-8080-exec-6] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - test, Szerző - test, Ár - 14000, Elérhető - false]'
+2023-12-22 20:50:46.038 [http-nio-8080-exec-6] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 20:50:49.359 [http-nio-8080-exec-10] INFO  fileLogger - ---------- @Before - Könyv törlésének kezdete---------------
+2023-12-22 20:50:49.362 [http-nio-8080-exec-10] INFO  fileLogger - Könyv törlése - paraméterei: [ID - 9, Cím - test, Szerző - test, Ár - 14000, Elérhető - false]
+2023-12-22 20:50:49.362 [http-nio-8080-exec-10] INFO  fileLogger - ---------- @Before - Könyv törlésének vége -----------------
+2023-12-22 20:50:49.376 [http-nio-8080-exec-10] INFO  fileLogger - ---------- @After - Könyv törlésének kezdete ---------------
+2023-12-22 20:50:49.376 [http-nio-8080-exec-10] INFO  fileLogger - Az ID: 9, könyv törölve lett!
+2023-12-22 20:50:49.376 [http-nio-8080-exec-10] INFO  fileLogger - ---------- @After - Könyv törlésének vége -----------------
+2023-12-22 20:52:32.464 [http-nio-8080-exec-4] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének kezdete ---------------
+2023-12-22 20:52:32.464 [http-nio-8080-exec-4] INFO  fileLogger - Könyv szerkesztése - paraméterei: [ID - 2, Cím - Harry Potter és a Titkok kamrája, Szerző - J. K. Rowling, Ár - 11000, Elérhető - false]'
+2023-12-22 20:52:32.464 [http-nio-8080-exec-4] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének vége -----------------
+2023-12-22 20:52:37.318 [http-nio-8080-exec-5] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének kezdete ---------------
+2023-12-22 20:52:37.318 [http-nio-8080-exec-5] INFO  fileLogger - Könyv szerkesztése - paraméterei: [ID - 2, Cím - Harry Potter és a Titkok Kamrája, Szerző - J. K. Rowling, Ár - 11000, Elérhető - false]'
+2023-12-22 20:52:37.318 [http-nio-8080-exec-5] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének vége -----------------
+2023-12-22 20:54:06.285 [http-nio-8080-exec-6] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének kezdete ---------------
+2023-12-22 20:54:06.285 [http-nio-8080-exec-6] INFO  fileLogger - Könyv szerkesztése - paraméterei: [ID - 1, Cím - Harry Potter és a Bölcsek köve, Szerző - J. K. Rowling, Ár - 10000, Elérhető - true]'
+2023-12-22 20:54:06.286 [http-nio-8080-exec-6] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének vége -----------------
+2023-12-22 20:54:09.132 [http-nio-8080-exec-2] ERROR fileLogger - [Hiba a 'author' mezőben. A mező nem lehet üres., Hiba az 'price' mezőben. A mező nem lehet üres., Hiba az 'available' mezőben. A mező nem lehet null., Hiba a 'Title' mezőben. A mező nem lehet üres.]
+2023-12-22 21:50:23.345 [http-nio-8080-exec-7] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének kezdete ---------------
+2023-12-22 21:50:23.345 [http-nio-8080-exec-7] INFO  fileLogger - Könyv szerkesztése - paraméterei: [ID - 1, Cím - Harry Potter és a Bölcsek köve, Szerző - J. K. Rowling, Ár - 10000, Elérhető - true]'
+2023-12-22 21:50:23.345 [http-nio-8080-exec-7] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének vége -----------------
+2023-12-22 21:50:37.962 [http-nio-8080-exec-2] INFO  fileLogger - ---------- @Before - Könyv mentésének kezdete ---------------
+2023-12-22 21:50:37.963 [http-nio-8080-exec-2] INFO  fileLogger - Könyv létrhozása - paraméterei: [Cím - test, Szerző - 1, Ár - 113, Elérhető - true]'
+2023-12-22 21:50:37.963 [http-nio-8080-exec-2] INFO  fileLogger - ---------- @Before Könyv mentésének vége -----------------
+2023-12-22 21:50:57.612 [http-nio-8080-exec-10] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének kezdete ---------------
+2023-12-22 21:50:57.612 [http-nio-8080-exec-10] INFO  fileLogger - Könyv szerkesztése - paraméterei: [ID - 10, Cím - test, Szerző - test, Ár - 113, Elérhető - true]'
+2023-12-22 21:50:57.612 [http-nio-8080-exec-10] INFO  fileLogger - ---------- @Before - Könyv szerkesztésének vége -----------------
+2023-12-22 21:51:07.823 [http-nio-8080-exec-4] INFO  fileLogger - ---------- @Before - Könyv törlésének kezdete---------------
+2023-12-22 21:51:07.825 [http-nio-8080-exec-4] INFO  fileLogger - Könyv törlése - paraméterei: [ID - 10, Cím - test, Szerző - test, Ár - 113, Elérhető - true]
+2023-12-22 21:51:07.826 [http-nio-8080-exec-4] INFO  fileLogger - ---------- @Before - Könyv törlésének vége -----------------
+2023-12-22 21:51:07.836 [http-nio-8080-exec-4] INFO  fileLogger - ---------- @After - Könyv törlésének kezdete ---------------
+2023-12-22 21:51:07.837 [http-nio-8080-exec-4] INFO  fileLogger - Az ID: 10, könyv törölve lett!
+2023-12-22 21:51:07.837 [http-nio-8080-exec-4] INFO  fileLogger - ---------- @After - Könyv törlésének vége -----------------

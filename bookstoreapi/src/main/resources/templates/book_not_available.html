@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Management System</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
+</head>
+<body class="bg-dark">
+<div class="container my-5">
+    <h1 class="text-center text-light">List of books not available</h1>
+    <div class="text-center text-light mb-4">
+        <a th:href="@{/}" class="btn btn-info" role="button">List of Books</a>
+        <a th:href="@{/showMyBooks}" class="btn btn-info" role="button">My Books</a>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover align-middle">
+            <thead class="table-primary">
+            <tr>
+                <th class="text-center">ID</th>
+                <th class="text-center">Title</th>
+                <th class="text-center">Author</th>
+                <th class="text-center">Price</th>
+                <th class="text-center">Available</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="books : ${listBooks}">
+                <th:block th:if="${books.available == false}">
+                <td th:text="${books.id}"></td>
+                <td th:text="${books.title}"></td>
+                <td th:text="${books.author}"></td>
+                <td th:text="${books.price}"></td>
+                <td th:text="${books.available}"></td>
+                </th:block>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
